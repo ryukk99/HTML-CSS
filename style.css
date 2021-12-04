@@ -1,0 +1,47 @@
+div{ text-align: center;
+	  color: blue;
+	  font: italic;
+	  
+	  background-color: pink;
+	  padding: 19px;
+
+
+	}
+
+ul{  color:blue;
+	 padding:20px;
+	 list-style-type:disc;
+	
+	}
+
+li{ display:inline;
+	padding: 55px;
+	font-family:italic;
+	
+	
+}
+h3{
+	text-align : center;
+	color:blue;
+	
+	
+	
+	
+	
+	}
+	
+#p1{text-align:center;
+	padding:px;
+	margin :px;
+	
+	
+	
+	}
+footer{ background-color: pink;
+	  padding: 19px;
+	text-align: center;
+	  color: blue;
+	  font: italic;
+	
+	
+	}
