@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+
+<head>
+
+		<title> form aligment</title>
+		<style type = "text/css">
+				label{
+					width:100px;
+					display:inline-block;
+					margin: 4px;
+				}
+				#form{
+					border-radius: 25px;
+					background:red;
+					
+				}
+
+		</style>
+
+
+
+
+</head>
+
+<body>
+
+	<div id = "form">
+			<form>
+			<label for ="name">Name:</label>
+			<input type ="text" id ="name" name= "name">
+
+			<br><br>
+
+			<label for ="Email">Email:</label>
+			<input type ="Mail" id = "Email" name = "Email">
+
+			<br><br>
+
+			<label for = "pwd">Password:</label>
+			<input type = "password" id ="pwd" name ="pwd">
+			
+			<br><br>
+			
+			<label for = "Phone No.">Phone Number:</label>
+			<input type = "tel" name ="Phone No."maxlength="12">
+			
+			<br><br>
+			
+			Gender:
+			
+			<input type = "radio" id ="Male" name ="Gender" value ="Male">
+			Male
+			
+
+			<input type = "radio" id ="Female" name ="Gender" value ="Female">
+			Female
+			
+			
+			<input type = "radio" id ="Other" name ="Gender" value ="Other">
+			Other
+			
+			
+			<br><br>
+			
+			<label for ="Language">Language:</label>
+			<input list="Languages" name ="Language" id = "Language">
+					
+					<datalist id="Languages">
+					<option value="English">
+					<option value="Hindi">
+					<option value="Spanish">
+					<option value="Japanese">
+					<option value="Konkani">
+					<input type="submit">
+				  </datalist>
+			
+			<br><br>
+
+			<label for = "Zcode">Zip Code:</label>
+			<input type = "tel" name ="Zcode."maxlength="7">
+			
+			<br><br>
+			
+			<label for ="about">About:</label>
+			<input type ="about" id ="about" name= "about">
+			
+			<br><br>
+			
+			<button type="button">Register</button>
+			
+			
+			
+	</form>
+
+</div>
+
+
+
+</body>
+
+
+
+
+</html>
